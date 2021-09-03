@@ -16,6 +16,9 @@ public class Car {
     }
 
     public void ChangeColor(String color3){
-
+        System.out.println("Цвет машины изменился");
+        int cena = 5000;
+        color = color3;
+        cena += 1000;
     }
 }
