@@ -1,7 +1,10 @@
 package Lesson9;
 
 public class Student {
-
+    int a = 10;
+    int b = this.a;
+    public static int c= 5;
+    public int z = this.c;
 }
 class StudentTest{
     public static void main(String[] args) {

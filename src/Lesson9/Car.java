@@ -1,11 +1,12 @@
 package Lesson9;
 
 public class Car {
+    public static int a = 10;
     String color;
     String engine;
-    static int count;
+    public static int count;
 
-    Car(String color, String engine){
+    public Car(String color, String engine){
         count++;
         this.engine = engine;
         this.color = color;
