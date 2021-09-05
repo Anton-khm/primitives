@@ -7,9 +7,8 @@ import static Lesson9.Car.a;  //импортировать статичную п
 import static Lesson9.Car.*; //импортировать все статичные переменные класса
 
 public class A {
-    public static void main(String[] args) {                                   //static метод, потому что: программа только запускается,
-        // никаких объектов класса
-        // не создано
+    public static void main(String[] args) {        //static метод, потому что: программа только запускается,
+        // никаких объектов класса не создано
         // поэтому мы должны использовать метод который может срабатывать без существования классов
         Lesson9.Car c1 = new Lesson9.Car("black", "V6");
         Student st2 = new Student();
